@@ -1,0 +1,37 @@
+.Shopping-list {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: all ease 0.4s;
+}
+
+.title:hover {
+  background-color: lightblue;
+  transform: rotateZ(5deg);
+  border-radius: 5px;
+}
+
+.ul {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: all ease 0.4s;
+}
+
+.ul:hover {
+  background-color: lightgreen;
+  transform: rotateX(20deg);
+  border-radius: 5px;
+}

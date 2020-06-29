@@ -1,0 +1,76 @@
+.Shopping-form{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.Shopping-form input{
+    width: 300px;
+    height: 40px;
+}
+
+.Shopping-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 60px;
+    width: 330px;
+    height: 40px;
+    transition: all 0.4s;
+}
+
+.Shopping-form button:hover {
+    background-color: lightcyan;
+    border: 2px solid lightseagreen;
+    color: lightseagreen;
+}
+
+.name{
+    margin-bottom: 20px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all ease-in-out 0.2s;
+}
+
+.name:hover{
+    background-color: lightsalmon;
+}
+
+.name input{
+    background-color: lightgoldenrodyellow;
+    border: none;
+}
+
+.name input:hover{
+    background-color: white;
+    border: 2px solid lightcyan;
+    color: lightcoral;
+}
+
+.quantity{
+    background-color: lightcyan;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.2s;
+}
+
+.quantity:hover {
+    background-color: lightsalmon;
+}
+
+.quantity input{
+    background-color: lightgoldenrodyellow;
+    border: none;
+}
+
+.quantity input:hover{
+    background-color: white;
+    border: 2px solid lightcyan;
+    color: lightcoral;
+}
